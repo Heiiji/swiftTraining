@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6B7EA832BD56BCC00198F92 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C6B7EA822BD56BCC00198F92 /* RealityKitContent */; };
+		C6B7EA852BD56BCC00198F92 /* SeaCreaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EA842BD56BCC00198F92 /* SeaCreaturesApp.swift */; };
+		C6B7EA872BD56BCC00198F92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EA862BD56BCC00198F92 /* ContentView.swift */; };
+		C6B7EA892BD56BCD00198F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B7EA882BD56BCD00198F92 /* Assets.xcassets */; };
+		C6B7EA8C2BD56BCD00198F92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B7EA8B2BD56BCD00198F92 /* Preview Assets.xcassets */; };
+		C6B7EA972BD56BCE00198F92 /* SeaCreaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EA962BD56BCE00198F92 /* SeaCreaturesTests.swift */; };
+		C6B7EAA12BD56DAA00198F92 /* SeaCreature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAA02BD56DAA00198F92 /* SeaCreature.swift */; };
+		C6B7EAA32BD573C000198F92 /* SeaCreatureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B7EAA22BD573C000198F92 /* SeaCreatureDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6B7EA932BD56BCE00198F92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B7EA752BD56BCC00198F92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B7EA7C2BD56BCC00198F92;
+			remoteInfo = SeaCreatures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6B7EA7D2BD56BCC00198F92 /* SeaCreatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaCreatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B7EA812BD56BCC00198F92 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		C6B7EA842BD56BCC00198F92 /* SeaCreaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreaturesApp.swift; sourceTree = "<group>"; };
+		C6B7EA862BD56BCC00198F92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6B7EA882BD56BCD00198F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6B7EA8B2BD56BCD00198F92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6B7EA8D2BD56BCD00198F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B7EA922BD56BCE00198F92 /* SeaCreaturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaCreaturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B7EA962BD56BCE00198F92 /* SeaCreaturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreaturesTests.swift; sourceTree = "<group>"; };
+		C6B7EAA02BD56DAA00198F92 /* SeaCreature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreature.swift; sourceTree = "<group>"; };
+		C6B7EAA22BD573C000198F92 /* SeaCreatureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreatureDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B7EA7A2BD56BCC00198F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B7EA832BD56BCC00198F92 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B7EA8F2BD56BCE00198F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6B7EA742BD56BCC00198F92 = {
+			isa = PBXGroup;
+			children = (
+				C6B7EA7F2BD56BCC00198F92 /* SeaCreatures */,
+				C6B7EA802BD56BCC00198F92 /* Packages */,
+				C6B7EA952BD56BCE00198F92 /* SeaCreaturesTests */,
+				C6B7EA7E2BD56BCC00198F92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B7EA7E2BD56BCC00198F92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B7EA7D2BD56BCC00198F92 /* SeaCreatures.app */,
+				C6B7EA922BD56BCE00198F92 /* SeaCreaturesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B7EA7F2BD56BCC00198F92 /* SeaCreatures */ = {
+			isa = PBXGroup;
+			children = (
+				C6B7EAA22BD573C000198F92 /* SeaCreatureDetailView.swift */,
+				C6B7EA842BD56BCC00198F92 /* SeaCreaturesApp.swift */,
+				C6B7EA862BD56BCC00198F92 /* ContentView.swift */,
+				C6B7EAA02BD56DAA00198F92 /* SeaCreature.swift */,
+				C6B7EA882BD56BCD00198F92 /* Assets.xcassets */,
+				C6B7EA8D2BD56BCD00198F92 /* Info.plist */,
+				C6B7EA8A2BD56BCD00198F92 /* Preview Content */,
+			);
+			path = SeaCreatures;
+			sourceTree = "<group>";
+		};
+		C6B7EA802BD56BCC00198F92 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C6B7EA812BD56BCC00198F92 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		C6B7EA8A2BD56BCD00198F92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C6B7EA8B2BD56BCD00198F92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C6B7EA952BD56BCE00198F92 /* SeaCreaturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B7EA962BD56BCE00198F92 /* SeaCreaturesTests.swift */,
+			);
+			path = SeaCreaturesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B7EA7C2BD56BCC00198F92 /* SeaCreatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B7EA9A2BD56BCE00198F92 /* Build configuration list for PBXNativeTarget "SeaCreatures" */;
+			buildPhases = (
+				C6B7EA792BD56BCC00198F92 /* Sources */,
+				C6B7EA7A2BD56BCC00198F92 /* Frameworks */,
+				C6B7EA7B2BD56BCC00198F92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeaCreatures;
+			packageProductDependencies = (
+				C6B7EA822BD56BCC00198F92 /* RealityKitContent */,
+			);
+			productName = SeaCreatures;
+			productReference = C6B7EA7D2BD56BCC00198F92 /* SeaCreatures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6B7EA912BD56BCE00198F92 /* SeaCreaturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B7EA9D2BD56BCE00198F92 /* Build configuration list for PBXNativeTarget "SeaCreaturesTests" */;
+			buildPhases = (
+				C6B7EA8E2BD56BCE00198F92 /* Sources */,
+				C6B7EA8F2BD56BCE00198F92 /* Frameworks */,
+				C6B7EA902BD56BCE00198F92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B7EA942BD56BCE00198F92 /* PBXTargetDependency */,
+			);
+			name = SeaCreaturesTests;
+			productName = SeaCreaturesTests;
+			productReference = C6B7EA922BD56BCE00198F92 /* SeaCreaturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B7EA752BD56BCC00198F92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C6B7EA7C2BD56BCC00198F92 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C6B7EA912BD56BCE00198F92 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C6B7EA7C2BD56BCC00198F92;
+					};
+				};
+			};
+			buildConfigurationList = C6B7EA782BD56BCC00198F92 /* Build configuration list for PBXProject "SeaCreatures" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6B7EA742BD56BCC00198F92;
+			productRefGroup = C6B7EA7E2BD56BCC00198F92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B7EA7C2BD56BCC00198F92 /* SeaCreatures */,
+				C6B7EA912BD56BCE00198F92 /* SeaCreaturesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B7EA7B2BD56BCC00198F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B7EA8C2BD56BCD00198F92 /* Preview Assets.xcassets in Resources */,
+				C6B7EA892BD56BCD00198F92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B7EA902BD56BCE00198F92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B7EA792BD56BCC00198F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B7EAA32BD573C000198F92 /* SeaCreatureDetailView.swift in Sources */,
+				C6B7EA872BD56BCC00198F92 /* ContentView.swift in Sources */,
+				C6B7EAA12BD56DAA00198F92 /* SeaCreature.swift in Sources */,
+				C6B7EA852BD56BCC00198F92 /* SeaCreaturesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B7EA8E2BD56BCE00198F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B7EA972BD56BCE00198F92 /* SeaCreaturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6B7EA942BD56BCE00198F92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B7EA7C2BD56BCC00198F92 /* SeaCreatures */;
+			targetProxy = C6B7EA932BD56BCE00198F92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C6B7EA982BD56BCE00198F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		C6B7EA992BD56BCE00198F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		C6B7EA9B2BD56BCE00198F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeaCreatures/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UY3997Y8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandora.SeaCreatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		C6B7EA9C2BD56BCE00198F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeaCreatures/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UY3997Y8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandora.SeaCreatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		C6B7EA9E2BD56BCE00198F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UY3997Y8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandora.SeaCreaturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaCreatures.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeaCreatures";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		C6B7EA9F2BD56BCE00198F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UY3997Y8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandora.SeaCreaturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaCreatures.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeaCreatures";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B7EA782BD56BCC00198F92 /* Build configuration list for PBXProject "SeaCreatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B7EA982BD56BCE00198F92 /* Debug */,
+				C6B7EA992BD56BCE00198F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B7EA9A2BD56BCE00198F92 /* Build configuration list for PBXNativeTarget "SeaCreatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B7EA9B2BD56BCE00198F92 /* Debug */,
+				C6B7EA9C2BD56BCE00198F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B7EA9D2BD56BCE00198F92 /* Build configuration list for PBXNativeTarget "SeaCreaturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B7EA9E2BD56BCE00198F92 /* Debug */,
+				C6B7EA9F2BD56BCE00198F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6B7EA822BD56BCC00198F92 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C6B7EA752BD56BCC00198F92 /* Project object */;
+}
